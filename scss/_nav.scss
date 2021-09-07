@@ -1,0 +1,24 @@
+/* VARIABLES */
+
+$greena:#b0e200; 
+
+$greenb:#6cab5a;
+
+$greenc:#b3e971;
+
+$greend:#133208;
+
+.navstyle__li{ list-style: none ;
+  color:$greena;
+  background-color:$greenb; 
+
+      transition: 2s; }
+
+
+.navstyle__li:hover { width: 120px;
+            height: auto; 
+            background-color:$greenc; }
+
+
+
+

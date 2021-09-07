@@ -1,0 +1,30 @@
+/* VARIABLES*/ 
+
+$gradienta:#56ab2f;
+$gradientb:#a8e063;
+$black:#120907; 
+$bluea:#252740;
+$blueb:#5e5c87;
+$bluec:#a59bdf;
+$blued:#c192fc;
+$margint:20px;
+$greena:#b0e200; 
+$greenb:#6cab5a;
+$greenc:#b3e971;
+$greend:#133208;
+$amarillo:yellow;
+$violeta:violet;
+$azul:blue;
+
+
+
+body { background:$gradienta; 
+background: -webkit-linear-gradient(to right, $gradientb, $gradienta); 
+background: linear-gradient(to right, $gradientb, $gradienta); 
+ }
+
+
+ .titulo {background-color:$greena; 
+          margin:$margint;
+          padding:$margint;
+          }
