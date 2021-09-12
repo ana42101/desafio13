@@ -15,6 +15,7 @@ $greend:#133208;
 $amarillo:yellow;
 $violeta:violet;
 $azul:blue;
+$padding:50px;
 
 
 
@@ -28,3 +29,5 @@ background: linear-gradient(to right, $gradientb, $gradienta);
           margin:$margint;
           padding:$margint;
           }
+
+.carousel__padding {padding-bottom: $padding; }

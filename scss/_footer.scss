@@ -12,20 +12,10 @@ $facebook:19px;
 $mail:25px;
 $instagram:23px;
 
-.footerFlex {display: flex;
-             justify-content: space-between;
-
-             }
-
-.imgFooterF {width:$facebook; }
-.imgFooterM {width:$mail; }
-.imgFooterI {width:$instagram; }
-
-.logoFlex {display: flex;
-           flex-direction: row; }
-
-.footerstyle__li { display: inline ; }
-
+$padding:50px;
 
 a { list-style: none ;
   color:$greend; }
+
+.footer {padding-bottom: $padding; }
+.footer {padding-top: $padding; }

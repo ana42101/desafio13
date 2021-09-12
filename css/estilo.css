@@ -21,27 +21,16 @@ body {
   margin: 20px;
   padding: 20px; }
 
+.carousel__padding {
+  padding-bottom: 50px; }
+
 /* VARIABLES */
-.footerFlex {
-  display: flex;
-  justify-content: space-between; }
-
-.imgFooterF {
-  width: 19px; }
-
-.imgFooterM {
-  width: 25px; }
-
-.imgFooterI {
-  width: 23px; }
-
-.logoFlex {
-  display: flex;
-  flex-direction: row; }
-
-.footerstyle__li {
-  display: inline; }
-
 a {
   list-style: none;
   color: #133208; }
+
+.footer {
+  padding-bottom: 50px; }
+
+.footer {
+  padding-top: 50px; }
