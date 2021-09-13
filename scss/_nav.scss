@@ -8,17 +8,30 @@ $greenc:#b3e971;
 
 $greend:#133208;
 
-.navstyle__li{ list-style: none ;
-  color:$greena;
-  background-color:$greenb; 
+$color1:#606807;
+
+$color2:#a09a0a;
+
+$color3:#efdb6c;
+
+$color4:#f8efc0;
+
+$color5:#f8efed;
+
+$padding:50px;
+
+.navstyle__li{ list-style: none ; 
 
       transition: 2s; }
 
 
 .navstyle__li:hover { width: 120px;
             height: auto; 
-            background-color:$greenc; }
+            }
 
+nav {background-color:$color2;
+
+            }
 
 
 

@@ -1,27 +1,23 @@
 /* VARIABLES */
 .navstyle__li {
   list-style: none;
-  color: #b0e200;
-  background-color: #6cab5a;
   transition: 2s; }
 
 .navstyle__li:hover {
   width: 120px;
-  height: auto;
-  background-color: #b3e971; }
+  height: auto; }
+
+nav {
+  background-color: #a09a0a; }
 
 /* VARIABLES*/
 body {
-  background: #56ab2f;
-  background: -webkit-linear-gradient(to right, #a8e063, #56ab2f);
-  background: linear-gradient(to right, #a8e063, #56ab2f); }
-
-.titulo {
-  background-color: #b0e200;
-  margin: 20px;
-  padding: 20px; }
+  background-color: #f8efed; }
 
 .carousel__padding {
+  padding-bottom: 50px; }
+
+header {
   padding-bottom: 50px; }
 
 /* VARIABLES */
@@ -32,5 +28,9 @@ a {
 .footer {
   padding-bottom: 50px; }
 
-.footer {
+footer {
+  background-color: #a09a0a;
   padding-top: 50px; }
+
+.afooter {
+  width: 50px; }

@@ -8,14 +8,25 @@ $greenc:#b3e971;
 
 $greend:#133208;
 
-$facebook:19px;
-$mail:25px;
-$instagram:23px;
-
 $padding:50px;
+
+$padding1:3px;
+
+
+$color1:#606807;
+$color2:#a09a0a;
+$color3:#efdb6c;
+$color4:#f8efc0;
+$color5:#f8efed;
+
 
 a { list-style: none ;
   color:$greend; }
 
 .footer {padding-bottom: $padding; }
-.footer {padding-top: $padding; }
+
+footer {background-color:$color2; 
+        padding-top:$padding;}
+
+.afooter	{width:$padding;}
+

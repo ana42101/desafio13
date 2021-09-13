@@ -16,18 +16,19 @@ $amarillo:yellow;
 $violeta:violet;
 $azul:blue;
 $padding:50px;
+$color1:#606807;
+$color2:#a09a0a;
+$color3:#efdb6c;
+$color4:#f8efc0;
+$color5:#f8efed;
 
 
 
-body { background:$gradienta; 
-background: -webkit-linear-gradient(to right, $gradientb, $gradienta); 
-background: linear-gradient(to right, $gradientb, $gradienta); 
- }
+
+body {background-color:$color5;}
 
 
- .titulo {background-color:$greena; 
-          margin:$margint;
-          padding:$margint;
-          }
 
 .carousel__padding {padding-bottom: $padding; }
+
+header {padding-bottom:$padding;}
